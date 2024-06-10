@@ -14,7 +14,7 @@ function makeJerry(jerry){
         square_height = height/17              
 
     jerry.forEach((row,i) => {
-        svg.selectAll('rect') // Select all <rect> elements in the DOM. Note: This is valid even if there are no <rect> elements yet.
+        svg.selectAll('row') // Select all <rect> elements in the DOM. Note: This is valid even if there are no <rect> elements yet.
             /* TODO: 
                 1. Bind the row array to this selection.
                 2. Use enter() and append() to create a square for each of the 17 pixels in the row array
