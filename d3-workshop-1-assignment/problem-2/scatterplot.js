@@ -44,7 +44,7 @@ function drawYAxis(svg) {
         .call(d3.axisLeft(yScale).tickFormat(abbreviateNumber));
 }
 
-function drawDots(data) {
+function drawDots(svg, data) {
     /* TODO:
         1. Append a group to the svg
         2. Translate this group margin.left pixels in the x direction and margin.top in the y direction
