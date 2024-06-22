@@ -14,6 +14,7 @@ function makeJerry(jerry){
         square_height = height/17              
 
     jerry.forEach((row,i) => {
+        console.log(row, i)
         svg.selectAll('row') // A new empty selection for the current row of Jerry. Note: This is valid even though there are no <row> elements in the HTML.
             /* TODO: 
                 1. Bind the row array to this selection.

@@ -80,6 +80,8 @@ function drawScatterPlot(data) {
 }
 
 function main(){
+    console.log(width - (margin.left + margin.right))
+    console.log(xScale(1e9))
     /* TODO: 
         1. Load the museums_edited.csv file from the data/ directory
         2. Filter the data 
